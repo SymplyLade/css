@@ -1,0 +1,19 @@
+h1{
+    color: yellow;
+    font-size: 24px;
+    font-weight: 100px;
+}
+
+section{
+    color: purple;
+    font-size: 24px;
+}
+
+h2{
+    color: rgb(167, 25, 25);
+    font-size: 20px;
+}
+
+body{
+    background-color: rgb(214, 231, 230);
+}

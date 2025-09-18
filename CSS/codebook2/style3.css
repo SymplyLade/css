@@ -1,0 +1,114 @@
+header{
+        background-color: #641048;
+        color:white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        display:inline-flexbox;
+    }
+ 
+
+.nav-item {
+        color:blueviolet;
+        padding: 5px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        display:inline-flexbox;
+}
+
+.demo-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+    footer{ 
+        background-color: #770d54;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        display:inline-flexbox;
+    }
+
+
+ .card-container {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin: 20px 0;
+    }
+    
+    .card {
+        flex: 1 1 250px;
+        background-color: rgb(241, 221, 240);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        min-width: 250px;
+        border: 1px solid #e9ecef;
+    }
+    
+    .card h4 {
+        color: #2c3e50;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    
+    .card p {
+        color: #6c757d;
+        line-height: 1.5;
+        margin-bottom: 15px;
+    }
+
+    .nav-item {
+        color:white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        display:inline-flexbox;
+    }
+    
+    .card-button {
+        background-color: #751e3f;
+        color: rgb(255, 255, 255);
+        padding: 8px 16px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+    }
+    
+    .card-button:hover {
+        background-color: #a12c84;
+    }
+
+
+aside{
+    flex: 1 1 250px;
+        background-color: rgb(173, 116, 171);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        min-width: 250px;
+        border: 1px solid #e9ecef;
+}
+
+main{flex: 1 1 250px;
+        background-color: rgb(241, 221, 240);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        min-width: 250px;
+        border: 1px solid #e9ecef;
+
+}

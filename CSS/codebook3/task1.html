@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="magazine.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- ## :dart: Practice Exercise 1
+**Task:** Create a "Magazine Layout" using CSS Grid
+**Requirements:**
+- Header spanning full width
+- Featured article taking 2/3 width on left
+- Sidebar with 3 smaller articles stacked on right
+- Advertisement banner below featured article
+- Footer spanning full width
+- Use grid-template-areas for clean code
+- Include proper spacing and visual hierarchy
+**Bonus Challenges:**
+- Make one small article span 2 rows in the sidebar
+- Add a navigation bar in the header
+- Use auto-fit for responsive article cards in a section -->
+    <div class="container">
+        <header>
+            <h1>Magazine Title</h1>
+            <p>Your source for interesting articles</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Opinion</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="magazine-grid">
+            <article>
+                <div class="grid-item1">
+                     <h2>AI In Daily Life</h2>
+                <p>AI is becoming part of everyday life—from smart home devices to personalized content and virtual assistants. <br>It’s making tasks easier, work more efficient, and even helping in healthcare.</p>
+                <p>But as AI grows, so do concerns about privacy and fairness. <br>The key? Using AI responsibly to improve lives without losing sight of human values.</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Discover the Power of AI!</h3>
+                <p>Revolutionize your work, streamline your life, and unlock smarter solutions with Artificial Intelligence.
+                <br>From automation to innovation — AI is the future, and the future is now.
+                :sparkles: Fast. Smart. Effortless.</p>
+                </div>
+            </article>
+            <aside class="sidebar">
+                <div class="sidebar-article">
+                    <h3>AI and Productivity Boost</h3>
+                    <p>AI tools are helping people work smarter, not harder.
+                    <br>Automating routine tasks frees up time for creative and strategic thinking.
+                    <br>Whether it’s drafting emails, analyzing data, or scheduling meetings,
+                    <br>AI is becoming a powerful assistant in the workplace.</p>
+                </div>
+                <div class="sidebar-article special-article">
+                    <h3>AI in Healthcare</h3>
+                    <p>AI is revolutionizing healthcare by improving diagnostics and patient care.
+                    <br>Algorithms analyze medical images faster and more accurately than ever.
+                    <br>Wearable AI devices also help monitor health in real time, making preventive care easier.</p>
+                </div>
+                <div class="sidebar-article">
+                    <h3>AI and Privacy</h3>
+                    <p>With AI gathering data to personalize experiences, privacy concerns grow.
+                    <br>It’s crucial to balance innovation with transparency and security,
+                    <br>ensuring users’ information is protected and used ethically.</p>
+                </div>
+            </aside>
+        </div>
+<footer class="grid-footer">
+        <p>&copy; 2025 Gbemisola</p>
+        </footer>
+  </div>
+</body>
+</html>
